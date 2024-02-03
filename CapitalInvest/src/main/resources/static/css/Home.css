@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.Container{
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    color: #262626;
+}
+header{
+    background-color: white;
+    width: 100%;
+}
+.Logo{
+    position: absolute;
+    left: 100px;
+
+}
+.ButtonEntrar{
+    position: absolute;
+    border: none;
+    color: #FEE501;
+    right: 300px;
+    background-color: white;
+}
+.ButtonInscrever{
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 130px;
+    right: 150px;
+    background-color: #FEE501;
+    color:white;
+}
+.Mid{
+    background-image: url("css/MulherUsandoPc.jpg");
+}

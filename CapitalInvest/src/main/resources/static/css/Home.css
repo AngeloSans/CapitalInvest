@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 
@@ -8,6 +10,7 @@
 .Container{
     max-width: 1080px;
     display: flex;
+    top: 100px;
     align-items: center;
     justify-content: center;
     font-weight: normal;
@@ -20,7 +23,11 @@ header{
 .Logo{
     position: absolute;
     left: 100px;
+    top:20px;
 
+}
+.Menu{
+    height: 70px;
 }
 .ButtonEntrar{
     position: absolute;
@@ -28,6 +35,8 @@ header{
     color: #FEE501;
     right: 300px;
     background-color: white;
+    top:20px;
+    cursor: pointer;
 }
 .ButtonInscrever{
     position: absolute;
@@ -38,7 +47,69 @@ header{
     right: 150px;
     background-color: #FEE501;
     color:white;
+    top: 20px;
+    cursor: pointer;
+}
+.ButtonInscrever:hover{
+    background: #FDF49E;
 }
 .Mid{
-    background-image: url("css/MulherUsandoPc.jpg");
+    background-image: url('mulherusandopc.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top:20px;
+    left: 240px;
+}
+.NavList{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+.NavList li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    float: left;
+}
+.NavList ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.NavList a{
+    color: #262626;
+    text-decoration: none;
+}
+.Vamos{
+    position: relative;
+    border: none;
+    background-color: white;
+    left: 100px;
+    top: 380px;
+    height: 60px;
+    width: 200px;
+    font-weight: bolder;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 1px 1px #0B0B0B;
+}
+.Mensage1{
+    position: absolute;
+    color: white;
+    left: 100px;
+    top: 180px;
+    font-weight: bolder;
+}
+.Mensage2{
+    position: absolute;
+    color: white;
+    left: 100px;
+    top: 240px;
+    font-weight: bolder;
 }

@@ -10,9 +10,6 @@
         <module name="CapitalInvest" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="CapitalInvest" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

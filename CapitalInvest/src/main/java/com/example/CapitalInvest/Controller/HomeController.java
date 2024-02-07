@@ -3,13 +3,19 @@ package com.example.CapitalInvest.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HomeController {
 
-    @GetMapping("Home")
+    @GetMapping("/Home")
     public String HomeScreen(){
         return "Home";
+    }
+
+    @RequestMapping("/Login")
+    public String login(){
+        return "SignIn.html";
     }
 
 }

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color: #FFE600;
+}
+form{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+}
+h3{
+    position: absolute;
+    top: 17px;
+    left: 50px;
+    color: #3E3E3E;
+}
+
+.email{
+    position: absolute;
+    border: none;
+    top: 80px;
+    left: 20px;
+    background-color: #D6D6D6;
+    height: 30px;
+    width: 250px;
+    border-radius: 3px;
+}
+.senha{
+    position: absolute;
+    border: none;
+    top: 130px;
+    left: 20px;
+    background-color: #D6D6D6;
+    height: 30px;
+    width: 250px;
+    border-radius: 3px;
+}
+button{
+    position: absolute;
+    border: none;
+    top: 200px;
+    left: 20px;
+    background-color: yellow;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}

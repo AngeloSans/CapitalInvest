@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: CapitalInvest
+
+  security:
+    oauth2:
+      client:
+        clientId: 407213781831260
+        clientSecret: 0c8bf25f1303ace699d9a972a359c5ec
+        accessTokenUri: https://graph.facebook.com/oauth/acess_token
+        userAuthorizationUri: https://ww.facebook.com/dialog/oauth
+        tokenName: oauth_token
+        authenticationScheme: query
+        clientAuthenticationScheme: form
+      resource:
+        userInfoUri: https://graph.facebook.com/me

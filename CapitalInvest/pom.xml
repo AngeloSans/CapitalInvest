@@ -77,7 +77,17 @@
             <artifactId>jaxb-core</artifactId>
             <version>4.0.4</version>
         </dependency>
-    </dependencies>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>6.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<version>6.2.1</version>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>

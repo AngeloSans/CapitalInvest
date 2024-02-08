@@ -1,11 +1,6 @@
 package com.example.CapitalInvest.Model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
-import jakarta.persistence.Id;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Column;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -24,6 +19,17 @@ public class Usuario {
 
     @Column(name = "senha")
     private String senha;
+
+    @Enumerated(EnumType.STRING)
+    private Provider provider;
+
+    public Provider getProvider() {
+        return provider;
+    }
+
+    public void setProvider(Provider provider) {
+        this.provider = provider;
+    }
 
 
 }

@@ -52,6 +52,7 @@ header{
 }
 .ButtonInscrever:hover{
     background: #FDF49E;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .Mid{
     background-image: url('mulherusandopc.jpg');
@@ -98,7 +99,7 @@ nav{
     border-radius: 30px;
     cursor: pointer;
     font-size: 16px;
-    box-shadow: 1px 1px #0B0B0B;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .Mensage1{
     position: absolute;
@@ -142,6 +143,12 @@ nav{
     background-color: #f06543;
     background: linear-gradient(315deg, #f06543 0%, #ffbe3d 74%);
 }
+.textfreedom{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    color: white;
+}
 .buttosimular{
     position: absolute;
     top: 300px;
@@ -155,6 +162,7 @@ nav{
     background: #FFBF00;
     cursor: pointer;
     font-size: 17px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .owner{

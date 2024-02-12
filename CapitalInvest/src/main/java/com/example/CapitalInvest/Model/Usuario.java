@@ -20,16 +20,6 @@ public class Usuario {
     @Column(name = "senha")
     private String senha;
 
-    @Enumerated(EnumType.STRING)
-    private Provider provider;
-
-    public Provider getProvider() {
-        return provider;
-    }
-
-    public void setProvider(Provider provider) {
-        this.provider = provider;
-    }
 
 
 }

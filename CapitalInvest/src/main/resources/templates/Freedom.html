@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Indepenedencia finaceira</title>
+    <link rel="stylesheet" href="css/freedom.css">
+</head>
+<body>
+<div>
+    <p><strong>Começe sua independecia financeira agora!</strong></p>
+    <h1>Saiba quanto voce vai precisar<br> para atingir sua liberdade financeira</h1>
+    <p>Você já parou para pensar quanto precisa investir para alcançar a tão desejada liberdade financeira?<br>
+    </p>
+</div>
+<img src="css/imagemPersona.png">
+<form action="Calcular" method="get" class="Calculadora">
+    <input class="valorMensal" name="valorMensal" placeholder="Valor Mensal" type="number"><br>
+    <input class="anos" name="anos" placeholder="Anos" type="number"><br>
+    <button>Calcular</button><br>
+</form>
+<h1 class="Result"><span th:text="${total}"></span></h1>
+
+</body>
+</html>

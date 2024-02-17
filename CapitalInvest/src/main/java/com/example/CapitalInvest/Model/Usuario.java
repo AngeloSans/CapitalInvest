@@ -17,8 +17,14 @@ public class Usuario {
     @Column(name = "email")
     private String email;
 
+    @Column(name = "nome")
+    private String nome;
+
     @Column(name = "senha")
     private String senha;
+
+    @Column(name = "investimento")
+    private String investimento;
 
 
 

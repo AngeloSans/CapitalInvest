@@ -17,6 +17,7 @@ form{
     width: 300px;
     border-radius: 10px;
     background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 h3{
     position: absolute;
@@ -30,7 +31,7 @@ h3{
     border: none;
     top: 80px;
     left: 20px;
-    background-color: #D6D6D6;
+    background-color: #F5F5F5;
     height: 30px;
     width: 250px;
     border-radius: 3px;
@@ -40,7 +41,7 @@ h3{
     border: none;
     top: 130px;
     left: 20px;
-    background-color: #D6D6D6;
+    background-color: #F5F5F5;
     height: 30px;
     width: 250px;
     border-radius: 3px;
@@ -57,4 +58,21 @@ button{
     color: white;
     font-weight: bolder;
     font-size: 15px;
+}
+
+.Signup{
+    position: absolute;
+    left: 30px;
+    top: 300px;
+}
+
+.social-links a{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    margin-right: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
 }

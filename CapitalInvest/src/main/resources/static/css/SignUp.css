@@ -21,6 +21,7 @@ body{
     top: 100px;
     left: 180px;
     border-radius: 20px;
+
 }
 form{
     position: absolute;
@@ -28,6 +29,7 @@ form{
     height: 400px;
     width: 280px;
     border-radius: 20px 0 0 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
 button{
@@ -50,7 +52,7 @@ button:hover{
 .Usuario{
     position: absolute;
     border: none;
-    background-color: #E0E0E0;
+    background-color: #F5F5F5;
     height: 30px;
     width: 200px;
     left: 30px;
@@ -61,7 +63,7 @@ button:hover{
 .Senha{
     position: absolute;
     border: none;
-    background-color: #E0E0E0;
+    background-color: #F5F5F5;
     height: 30px;
     width: 200px;
     left: 30px;
@@ -72,7 +74,7 @@ button:hover{
 .RepetirSenha{
     position: absolute;
     border: none;
-    background-color: #E0E0E0;
+    background-color: #F5F5F5;
     height: 30px;
     width: 200px;
     left: 30px;

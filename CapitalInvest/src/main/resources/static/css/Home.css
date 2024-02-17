@@ -29,31 +29,12 @@ header{
 .Menu{
     height: 70px;
 }
-.ButtonEntrar{
+.Login{
     position: absolute;
-    border: none;
-    color: #FEE501;
-    right: 300px;
-    background-color: white;
-    top:20px;
-    cursor: pointer;
+    right: 200px;
+    top: 10px;
 }
-.ButtonInscrever{
-    position: absolute;
-    border: none;
-    border-radius: 20px;
-    height: 30px;
-    width: 130px;
-    right: 150px;
-    background-color: #FEE501;
-    color:white;
-    top: 20px;
-    cursor: pointer;
-}
-.ButtonInscrever:hover{
-    background: #FDF49E;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+
 .Mid{
     background-image: url('mulherusandopc.jpg');
     background-size: cover;
@@ -95,7 +76,7 @@ nav{
     border: none;
     background-color: white;
     left: 100px;
-    top: 380px;
+    top: 430px;
     height: 60px;
     width: 200px;
     font-weight: bolder;

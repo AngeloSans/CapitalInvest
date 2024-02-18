@@ -7,15 +7,15 @@
     <title>SignIn</title>
 </head>
 <body>
-<form>
+<form action="/Login" method="post">
     <h3>Login</h3>
     <div class="social-links">
         <a href=""><i class="fab fa-facebook-f"></i></a>
         <a href=""><i class="fa-brands fa-x-twitter"></i></a>
         <a href=""><i class="fa-brands fa-google"></i></a>
     </div>
-    <input class="email" style="padding-left: 10px" type="email" placeholder="Email"><br>
-    <input class="senha" style="padding-left: 10px" type="password" placeholder="Senha"><br>
+    <input name="email" class="email" style="padding-left: 10px" type="email" placeholder="Email"><br>
+    <input name="senha" class="senha" style="padding-left: 10px" type="password" placeholder="Senha"><br>
     <a class="Signup" href="/SignUp">Caso voce não tenha conta</a>
     <button>Logar</button>
 </form>

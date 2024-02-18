@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" xmlns:c="http://www.w3.org/1999/XSL/Transform">
+
 <head>
     <meta charset="UTF-8">
     <style>
@@ -25,10 +26,14 @@
             </nav>
         </div>
         <div >
-            <a href="/Login">
-                <img class="Login" height="35px" width="35px" src="css/iconregister.png">
-            </a>
-
+                <c:if test="${usuarioLogado}">
+                    <h1></h1>
+                </c:if>
+                <c:if test="${not usuarioLogado}">
+                    <a href="/Login">
+                        <button class="Login">Login</button>
+                    </a>
+                </c:if>
         </div>
     </div>
 </header>

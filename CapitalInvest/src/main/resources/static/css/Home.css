@@ -31,8 +31,21 @@ header{
 }
 .Login{
     position: absolute;
+    border: none;
+    background-color: #FEE501;
+    color: white;
+    font-weight: bolder;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
     right: 200px;
     top: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.Login:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #FBE51E;
 }
 
 .Mid{

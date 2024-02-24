@@ -27,8 +27,7 @@ public class LoginController {
         Usuario usuario = usuarioRepository.findByEmail(email);
 
         if(usuario != null && passwordEncoder.matches(senha, usuario.getSenha())){
-            model.addAttribute("usuarioLogado", true);
-            return "Home.html";
+            return "Home2.html";
         }
         else{
             return "SignIn.html";

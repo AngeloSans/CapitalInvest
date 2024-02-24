@@ -43,6 +43,18 @@ header{
     transition: all 0.3s ease;
     cursor: pointer;
 }
+.iconsettings{
+    position: absolute;
+    top: 15px;
+    right: 200px;
+    height: 60px;
+    width: 60px;
+    color: #FBE51E;
+
+}
+.iconsettings i{
+    font-size: 30px;
+}
 .Login:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: #FBE51E;
@@ -106,6 +118,7 @@ nav{
     font-weight: bolder;
     font-size: 45px;
 }
+
 .Mensage2{
     position: absolute;
     color: white;
@@ -129,7 +142,7 @@ nav{
     position: absolute;
     height: 300px;
     width: 300px;
-    background-color: white;
+    background-color: #161616;
     top: 120px;
     left: 50px;
     border-radius: 20px;
@@ -138,7 +151,7 @@ nav{
     position: absolute;
     height: 300px;
     width: 300px;
-    background-color: white;
+    background-color: #161616;
     top: 120px;
     left: 360px;
     border-radius: 20px;
@@ -147,7 +160,7 @@ nav{
     position: absolute;
     height: 300px;
     width: 300px;
-    background-color: white;
+    background-color: #161616;
     top: 120px;
     left: 670px;
     border-radius: 20px;
@@ -156,7 +169,7 @@ nav{
     position: absolute;
     height: 300px;
     width: 300px;
-    background-color: white;
+    background-color: #161616;
     top: 120px;
     left: 1000px;
     border-radius: 20px;

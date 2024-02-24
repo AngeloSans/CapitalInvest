@@ -26,7 +26,7 @@ public class SecurityConfigurations {
                 .authorizeHttpRequests(requests -> requests
                         .requestMatchers("/**").permitAll()
                 )
-                .oauth2Login(oauth2Login-> oauth2Login.loginPage("/SignUp"))
+                .oauth2Login(oauth2Login-> oauth2Login.loginPage("/Home"))
                 .build();
     }
 

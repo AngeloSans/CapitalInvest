@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.listraAmarela{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: #FBE51E;
+}
+
+.buttonProfile{
+    position: absolute;
+    top: 50px;
+    border: none;
+    background-color: rgba(251, 229, 30, 0.5);
+    cursor: pointer;
+    padding: 0;
+    font-size: 18px;
+    width: 240px;
+    transition: all 0.3s ease;
+}
+.buttonInvestimentos{
+    position: absolute;
+    top: 100px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 0;
+    font-size: 18px;
+    width: 240px;
+    transition: all 0.3s ease;
+}
+.buttonInvestimentos:hover{
+    position: absolute;
+    background-color: rgba(251, 229, 30, 0.5);
+}
+.buttonSettings{
+    position: absolute;
+    top: 150px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 0;
+    font-size: 18px;
+    width: 240px;
+    transition: all 0.3s ease;
+}
+.buttonSettings:hover{
+    position: absolute;
+    background-color: rgba(251, 229, 30, 0.5);
+}
+.buttonProfile:hover{
+    position:absolute;
+    background-color: rgba(251, 229, 30, 0.5);
+}
+
+.logo{
+    position: absolute;
+    left: 10px;
+    color: #303030;
+}
+.sidebar{
+    position: fixed;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 240px;
+    height: 100%;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.sidebar button > span{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    height: 50px;
+    padding:  0 1px 0 1px;
+
+}

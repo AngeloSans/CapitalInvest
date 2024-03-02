@@ -9,70 +9,85 @@
 body{
     background-color: #FFE600;
 }
+img{
+    position: absolute;
+    height: 100%;
+
+}
 form{
     position: absolute;
-    top: 150px;
-    left: 500px;
-    height: 350px;
-    width: 300px;
-    border-radius: 10px;
+    left: 715px;
+    height: 100%;
+    width: 650px;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 h3{
     position: absolute;
-    top: 17px;
-    left: 50px;
+    top: 70px;
+    left: 120px;
     color: #3E3E3E;
+    font-size: 25px;
 }
 
 .email{
     position: absolute;
     border: none;
-    top: 80px;
-    left: 20px;
-    background-color: #F5F5F5;
+    top: 180px;
+    left: 120px;
     height: 30px;
-    width: 250px;
-    border-radius: 3px;
+    width: 350px;
+    border-bottom: 1.5px solid #A0A0A0;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #A0A0A0;
 }
 .senha{
     position: absolute;
     border: none;
-    top: 130px;
-    left: 20px;
-    background-color: #F5F5F5;
+    top: 330px;
+    left: 120px;
     height: 30px;
-    width: 250px;
-    border-radius: 3px;
+    width: 350px;
+    border-bottom: 1.5px solid #A0A0A0;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #A0A0A0;
 }
 button{
     position: absolute;
     border: none;
-    top: 200px;
-    left: 20px;
-    background-color: yellow;
-    border-radius: 5px;
-    width: 250px;
+    top: 400px;
+    left: 120px;
+    background-color: #FFC700;
+    border-radius: 50px;
+    width: 350px;
     height: 50px;
     color: white;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 18px;
+    cursor: pointer;
 }
-
+.barrinha{
+   position: absolute;
+   top: 500px;
+   height: 119px;
+   width: 640px;
+   background-color: #101010;
+}
 .Signup{
     position: absolute;
-    left: 30px;
-    top: 300px;
+    top: 50px;
+    left: 50px;
+    color: #FFC700;
+    text-decoration: none;
 }
-
-.social-links a{
-    height: 50px;
-    width: 50px;
-    background-color: yellow;
-    margin-right: 0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #ffffff;
+.recrutador{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    color: #FFC700;
+    text-shadow: 1px 1px 2px rgba(255, 199, 0, 0.8);
 }

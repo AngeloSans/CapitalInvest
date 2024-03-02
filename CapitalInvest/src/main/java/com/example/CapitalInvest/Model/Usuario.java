@@ -28,6 +28,17 @@ public class Usuario {
     @Column(name = "investimento")
     private String investimento;
 
+    public Double getSaldodisponivel() {
+        return saldodisponivel;
+    }
+
+    public void setSaldodisponivel(Double saldodisponivel) {
+        this.saldodisponivel = saldodisponivel;
+    }
+
+    @Column(name = "saldodisponivel")
+    private Double saldodisponivel;
+
     public long getId() {
         return id;
     }

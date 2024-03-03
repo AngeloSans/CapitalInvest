@@ -30,6 +30,14 @@ h3{
     font-size: 25px;
 }
 
+.Emaillabel{
+    position: absolute;
+    left: 120px;
+    top: 150px;
+    font-size: 18px;
+    color: #3E3E3E;
+    font-weight: bold;
+}
 .email{
     position: absolute;
     border: none;
@@ -41,7 +49,15 @@ h3{
     outline: none;
     font-size: 18px;
     font-weight: bold;
-    color: #A0A0A0;
+    color: #3E3E3E;
+}
+.Senhalabel{
+    position: absolute;
+    top: 300px;
+    left: 120px;
+    font-size: 18px;
+    color: #3E3E3E;
+    font-weight: bold;
 }
 .senha{
     position: absolute;
@@ -54,7 +70,7 @@ h3{
     outline: none;
     font-size: 18px;
     font-weight: bold;
-    color: #A0A0A0;
+    color: #3E3E3E;
 }
 button{
     position: absolute;

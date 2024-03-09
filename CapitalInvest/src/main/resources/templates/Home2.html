@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" xmlns:c="http://www.w3.org/1999/XSL/Transform">
+<html lang="pt-br" xmlns:c="http://www.w3.org/1999/XSL/Transform" xmlns:th="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="UTF-8">
@@ -29,8 +29,11 @@
                 <a class="iconsettings" href="/Configurações" >
                     <i class="fa-solid fa-user"></i>
                 </a>
+
         </div>
+        <h1><span th:if="${nomeUsuario}" th:text="${nomeUsuario}" class="nomeUsuario"></span></h1>
     </div>
+
 </header>
 <div class="Mid">
     <h1 class="Mensage1">Invista de uma forma segura</h1>

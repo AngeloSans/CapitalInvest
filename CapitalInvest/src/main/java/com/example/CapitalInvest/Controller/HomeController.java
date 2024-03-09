@@ -18,4 +18,9 @@ public class HomeController {
         return "SignIn.html";
     }
 
+    @GetMapping("/Home2")
+    public String Home2(){
+        return "Home2.html";
+    }
+
 }

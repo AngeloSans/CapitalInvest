@@ -9,6 +9,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Entity
+@Table(name = "Renda Fixa")
 @Getter
 @Setter
 public class RendaFixa {

@@ -2,11 +2,13 @@ package com.example.CapitalInvest.Model;
 
 
 import jakarta.persistence.*;
+import org.hibernate.annotations.TypeBinderType;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Entity
+@Table(name = "Acoes")
 public class Acoes {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

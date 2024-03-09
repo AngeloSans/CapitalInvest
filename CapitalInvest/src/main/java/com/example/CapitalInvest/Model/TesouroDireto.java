@@ -7,6 +7,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Entity
+@Table(name = "Tesouro direto")
 public class TesouroDireto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

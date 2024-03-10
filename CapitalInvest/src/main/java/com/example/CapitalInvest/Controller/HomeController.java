@@ -20,6 +20,7 @@ public class HomeController {
 
     @GetMapping("/Home2")
     public String Home2(){
+
         return "Home2.html";
     }
 

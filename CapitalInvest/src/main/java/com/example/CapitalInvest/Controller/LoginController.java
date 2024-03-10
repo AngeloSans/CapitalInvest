@@ -27,7 +27,7 @@ public class LoginController {
         Usuario usuario = usuarioRepository.findByEmail(email);
 
         if(usuario != null && passwordEncoder.matches(senha, usuario.getSenha())){
-            //usuario.getNome();
+            usuario.getNome();
             model.addAttribute("nomeUsuario", usuario.getNome());
             return "redirect:/Home2";
         }

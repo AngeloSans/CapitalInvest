@@ -134,7 +134,7 @@ nav{
     position: absolute;
     color: white;
     left: 100px;
-    top: 240px;
+    top: 300px;
     font-weight: bolder;
 }
 .Produtos{
@@ -146,47 +146,101 @@ nav{
 .NossosProdutos{
     position: absolute;
     top: 20px;
-    left: 20px;
+    left: 50px;
     color: white;
 }
 .bloco1{
     position: absolute;
     height: 300px;
-    width: 300px;
+    width: 400px;
     background-color: #161616;
     top: 120px;
     left: 50px;
-    border-radius: 20px;
+    border-radius: 10px;
+}
+.bloco1 a{
+    position: absolute;
+    color: yellow;
+    left: 10px;
+    top: 250px;
+}
+.acoes{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    font-size: 25px;
+}
+.textoacoes{
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    color: #bbbbbb;
+    font-size: 15px;
 }
 .bloco2{
     position: absolute;
     height: 300px;
-    width: 300px;
+    width: 400px;
     background-color: #161616;
     top: 120px;
-    left: 360px;
-    border-radius: 20px;
+    left: 480px;
+    border-radius: 10px;
+}
+.bloco2 a{
+    position: absolute;
+    color: yellow;
+    left: 10px;
+    top: 250px;
+}
+
+.rendafixa{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    font-size: 25px;
+
+}
+.textorendafixa{
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    color: #bbbbbb;
+    font-size: 15px;
 }
 .bloco3{
     position: absolute;
     height: 300px;
-    width: 300px;
+    width: 400px;
     background-color: #161616;
     top: 120px;
-    left: 670px;
-    border-radius: 20px;
+    left: 900px;
+    border-radius: 10px;
 }
-.bloco4{
+.bloco3 a{
     position: absolute;
-    height: 300px;
-    width: 300px;
-    background-color: #161616;
-    top: 120px;
-    left: 1000px;
-    border-radius: 20px;
+    color: yellow;
+    left: 10px;
+    top: 250px;
 }
 
+.tesourodireto{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    font-size: 25px;
 
+}
+
+.textotesourodireto{
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    color: #bbbbbb;
+    font-size: 15px;
+}
 .Pros{
     position: absolute;
     height: 400px;
@@ -194,11 +248,17 @@ nav{
     top: 1200px;
     background-color: white;
 }
+.textvantagens{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+
+}
 .Freedom{
     position: absolute;
     height: 500px;
     width: 100%;
-    top: 1500px;
+    top: 1750px;
     background-color: #FFC700;
 }
 .Freedom a{

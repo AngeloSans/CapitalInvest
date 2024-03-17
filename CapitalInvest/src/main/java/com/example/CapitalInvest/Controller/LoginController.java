@@ -3,6 +3,7 @@ package com.example.CapitalInvest.Controller;
 
 import com.example.CapitalInvest.Model.Usuario;
 import com.example.CapitalInvest.Repository.UsuarioRepository;
+import com.example.CapitalInvest.Service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
@@ -15,19 +16,15 @@ import org.springframework.ui.Model;
 public class LoginController {
 
     @Autowired
-    UsuarioRepository usuarioRepository;
-
-    @Autowired
-    PasswordEncoder passwordEncoder;
+    UsuarioService usuarioService;
 
     @PostMapping("/Login")
     public String Login(@RequestParam String email,
                         @RequestParam String senha,
                         Model model){
-        Usuario usuario = usuarioRepository.findByEmail(email);
 
-        if(usuario != null && passwordEncoder.matches(senha, usuario.getSenha())){
-            usuario.getNome();
+        if(usuarioService.loginUsuario(email, senha)){
+            Usuario usuario = usuarioService.buscarUsuarioPorEmail(email);
             model.addAttribute("nomeUsuario", usuario.getNome());
             return "redirect:/Home2";
         }

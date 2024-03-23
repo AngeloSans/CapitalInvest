@@ -1,7 +1,7 @@
 package com.example.CapitalInvest.Service;
 
 
-import com.example.CapitalInvest.Model.TesouroDireto;
+import com.example.CapitalInvest.Entity.TesouroDireto;
 import com.example.CapitalInvest.Repository.TesouroDiretoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

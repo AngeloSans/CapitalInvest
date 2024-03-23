@@ -1,15 +1,14 @@
-package com.example.CapitalInvest.Model;
+package com.example.CapitalInvest.Entity;
 
 
 import jakarta.persistence.*;
-import org.hibernate.annotations.TypeBinderType;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "Acoes")
-public class Acoes {
+@Table(name = "Tesouro direto")
+public class TesouroDireto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")

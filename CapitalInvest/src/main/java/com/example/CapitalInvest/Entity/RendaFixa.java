@@ -1,4 +1,4 @@
-package com.example.CapitalInvest.Model;
+package com.example.CapitalInvest.Entity;
 
 
 import jakarta.persistence.*;

@@ -1,14 +1,11 @@
 package com.example.CapitalInvest.Controller;
 
 
-import com.example.CapitalInvest.Model.Usuario;
-import com.example.CapitalInvest.Repository.UsuarioRepository;
+import com.example.CapitalInvest.Entity.Usuario;
 import com.example.CapitalInvest.Service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.ui.Model;
 

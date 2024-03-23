@@ -1,7 +1,7 @@
 package com.example.CapitalInvest.Service;
 
 
-import com.example.CapitalInvest.Model.Usuario;
+import com.example.CapitalInvest.Entity.Usuario;
 import com.example.CapitalInvest.Repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;

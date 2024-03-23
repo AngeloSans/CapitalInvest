@@ -1,4 +1,4 @@
-package com.example.CapitalInvest.Model;
+package com.example.CapitalInvest.Entity;
 
 
 import jakarta.persistence.*;
@@ -7,8 +7,8 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "Tesouro direto")
-public class TesouroDireto {
+@Table(name = "Acoes")
+public class Acoes {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")

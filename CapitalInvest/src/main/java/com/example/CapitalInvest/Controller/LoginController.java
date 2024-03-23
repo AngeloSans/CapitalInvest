@@ -29,7 +29,9 @@ public class LoginController {
             return "redirect:/Home2";
         }
         else{
+            model.addAttribute("naoexiste", "esse usuario não existe no nosso banco de dados");
             return "SignIn.html";
+
         }
     }
 

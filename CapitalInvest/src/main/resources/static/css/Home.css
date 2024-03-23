@@ -50,7 +50,7 @@ header{
     font-weight: bolder;
     height: 40px;
     width: 150px;
-    border-radius: 5px;
+    border-radius: 50px;
     right: 200px;
     top: 10px;
     transition: all 0.3s ease;
@@ -156,7 +156,7 @@ nav{
     font-weight: bolder;
 }
 .Produtos{
-    position: absolute;
+    position: relative;
     height: 500px;
     width: 100%;
     background-color: black;
@@ -260,23 +260,47 @@ nav{
     font-size: 15px;
 }
 .Pros{
-    position: absolute;
-    height: 400px;
+    position: relative;
+    height: 700px;
     width: 100%;
-    top: 1200px;
     background-color: white;
 }
-.textvantagens{
+.Pros h1{
     position: absolute;
     left: 50px;
     top: 20px;
 
 }
-.Freedom{
+.Pros h3{
     position: absolute;
+    left: 50px;
+    top: 80px;
+    font-weight: medium;
+}
+.Segurança{
+    position: absolute;
+    left: 50px;
+    top: 180px;
+}
+.Investimento{
+    position: absolute;
+    left: 700px;
+    top: 180px;
+}
+.Calculo{
+    position: absolute;
+    left: 50px;
+    top: 400px;
+}
+.Compatibilidade{
+    position: absolute;
+    left: 700px;
+    top: 400px;
+}
+.Freedom{
+    position: relative;
     height: 500px;
     width: 100%;
-    top: 1750px;
     background-color: #FFC700;
 }
 .Freedom a{
@@ -294,18 +318,16 @@ nav{
 }
 
 .owner{
-    position: absolute;
+    position: relative;
     height: 400px;
     width: 100%;
-    top: 2100px;
     background-color: white;
 }
 
 footer{
-    position: absolute;
+    position: relative;
     height: 400px;
     width: 100%;
-    top: 2600px;
     background-color: black;
 }
 .imagemmulher{

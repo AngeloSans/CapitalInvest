@@ -90,7 +90,7 @@ button{
    position: absolute;
    top: 500px;
    height: 119px;
-   width: 640px;
+   width: 100%;
    background-color: #101010;
 }
 .Signup{

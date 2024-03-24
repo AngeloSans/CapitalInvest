@@ -301,20 +301,27 @@ nav{
     position: relative;
     height: 500px;
     width: 100%;
-    background-color: #FFC700;
+    background-color: #f8f4f4;
 }
 .Freedom a{
     position: absolute;
     text-decoration: none;
-    color: white;
-    top: 200px;
-    left: 20px;
+    color: #FFC700;
+    top: 300px;
+    left: 40px;
+    font-size: 20px;
 }
-.textfreedom{
+.Freedom h1{
     position: absolute;
-    top: 40px;
-    left: 20px;
-    color: white;
+    top: 80px;
+    left: 40px;
+    color: #FFC700;
+}
+.Freedom h3{
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  font-size: 20px;
 }
 
 .owner{
@@ -330,12 +337,12 @@ footer{
     width: 100%;
     background-color: black;
 }
-.imagemmulher{
+.Freedom img{
     position: absolute;
     left: 700px;
-    top: 20px;
+    top: 50px;
     height: 400px;
-    width: 300px
+    width: 600px;
 }
 footer{
     background-color: #101010;

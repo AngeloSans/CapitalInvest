@@ -1,7 +1,7 @@
 package com.example.CapitalInvest.Service;
 
 
-import com.example.CapitalInvest.Entity.RendaFixa;
+import com.example.CapitalInvest.Model.RendaFixa;
 import com.example.CapitalInvest.Repository.RendaFixaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

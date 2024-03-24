@@ -1,6 +1,6 @@
 package com.example.CapitalInvest.Repository;
 
-import com.example.CapitalInvest.Entity.RendaFixa;
+import com.example.CapitalInvest.Model.RendaFixa;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

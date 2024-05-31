@@ -1,6 +1,7 @@
 package com.example.CapitalInvest.Security;
 
 //import com.example.CapitalInvest.Security.oauth.CustomOAuth2Usuario;
+import com.nimbusds.oauth2.sdk.auth.JWTAuthentication;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -33,6 +34,11 @@ public class SecurityConfigurations {
     @Bean
     public PasswordEncoder passwordEncoder(){
         return new BCryptPasswordEncoder();
+    }
+
+    @Bean
+    public JWTAuthenticationFilter jwtAuthenticationFilter(){
+        return new JWTAuthentication();
     }
 
 }

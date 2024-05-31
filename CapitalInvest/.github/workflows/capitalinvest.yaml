@@ -1,0 +1,20 @@
+name : Continuos  Integration
+
+on: pull_request
+
+jobs:
+  continuous-integration:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v2
+        with:
+          java-version: 17
+      - name: install and run
+        run: |
+          mvn clean install
+          java -jar target/capitalinvest.jar

@@ -36,9 +36,6 @@ public class SecurityConfigurations {
         return new BCryptPasswordEncoder();
     }
 
-    @Bean
-    public JWTAuthenticationFilter jwtAuthenticationFilter(){
-        return new JWTAuthentication();
-    }
+
 
 }

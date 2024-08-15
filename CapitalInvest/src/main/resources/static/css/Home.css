@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
-
 
 .Container{
     max-width: 1080px;
@@ -16,6 +14,7 @@
     font-weight: normal;
     color: #262626;
 }
+
 .bolinha{
     position: absolute;
     top: 15px;
@@ -25,23 +24,27 @@
     border-radius: 50%;
     background-color: white;
 }
+
 header{
     background-color: white;
     width: 100%;
 }
+
 .header2{
-    background-color : #FFC805;
-    width: 100%
+    background-color: #FFC805;
+    width: 100%;
 }
+
 .Logo{
     position: absolute;
     left: 50px;
-    top:20px;
-
+    top: 20px;
 }
+
 .Menu{
     height: 70px;
 }
+
 .Login{
     position: absolute;
     border: none;
@@ -56,6 +59,7 @@ header{
     transition: all 0.3s ease;
     cursor: pointer;
 }
+
 .iconsettings{
     position: absolute;
     top: 15px;
@@ -63,11 +67,12 @@ header{
     height: 60px;
     width: 60px;
     color: #FBE51E;
-
 }
+
 .iconsettings i{
     font-size: 30px;
 }
+
 .Login:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: #FBE51E;
@@ -79,33 +84,36 @@ header{
     height: 100vh;
     width: 100%;
 }
+
 .Mid2{
     height: 100vh;
     width: 100%;
-
 }
+
 nav{
     position: absolute;
     display: flex;
     justify-content: space-around;
-    top:20px;
+    top: 20px;
     left: 200px;
 }
+
 .NavList{
     display: flex;
     align-items: center;
     list-style: none;
-
 }
+
 .NavList li{
     margin-left: 20px;
     float: left;
 }
+
 .NavList ul{
     list-style-type: none;
     overflow: hidden;
-
 }
+
 .NavList a{
     color: #262626;
     text-decoration: none;
@@ -113,12 +121,15 @@ nav{
     font-weight: 600;
     text-transform: capitalize;
 }
+
 .NavList:hover a{
-    color: #c0c0c0;;
+    color: #c0c0c0;
 }
+
 .NavList a:hover{
     color: #262626;
 }
+
 .Vamos{
     position: relative;
     border: none;
@@ -133,12 +144,14 @@ nav{
     font-size: 16px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 .nomeUsuario{
     position: absolute;
     top: 20px;
     left: 1000px;
     color: black;
 }
+
 .Mensage1{
     position: absolute;
     color: white;
@@ -155,154 +168,118 @@ nav{
     top: 300px;
     font-weight: bolder;
 }
+
 .Produtos{
     position: relative;
     height: 500px;
     width: 100%;
     background-color: black;
 }
+
 .NossosProdutos{
     position: absolute;
     top: 20px;
     left: 50px;
     color: white;
 }
-.bloco1{
+
+.bloco1, .bloco2, .bloco3{
     position: absolute;
     height: 300px;
     width: 400px;
     background-color: #161616;
+    border-radius: 10px;
+}
+
+.bloco1 {
     top: 120px;
     left: 50px;
-    border-radius: 10px;
 }
-.bloco1 a{
-    position: absolute;
-    color: yellow;
-    left: 10px;
-    top: 250px;
-}
-.acoes{
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    color: white;
-    font-size: 25px;
-}
-.textoacoes{
-    position: absolute;
-    left: 10px;
-    top: 70px;
-    color: #bbbbbb;
-    font-size: 15px;
-}
-.bloco2{
-    position: absolute;
-    height: 300px;
-    width: 400px;
-    background-color: #161616;
+
+.bloco2 {
     top: 120px;
     left: 480px;
-    border-radius: 10px;
-}
-.bloco2 a{
-    position: absolute;
-    color: yellow;
-    left: 10px;
-    top: 250px;
 }
 
-.rendafixa{
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    color: white;
-    font-size: 25px;
-
-}
-.textorendafixa{
-    position: absolute;
-    left: 10px;
-    top: 70px;
-    color: #bbbbbb;
-    font-size: 15px;
-}
-.bloco3{
-    position: absolute;
-    height: 300px;
-    width: 400px;
-    background-color: #161616;
+.bloco3 {
     top: 120px;
     left: 900px;
-    border-radius: 10px;
 }
-.bloco3 a{
+
+.bloco1 a, .bloco2 a, .bloco3 a{
     position: absolute;
     color: yellow;
     left: 10px;
     top: 250px;
 }
 
-.tesourodireto{
+.acoes, .rendafixa, .tesourodireto{
     position: absolute;
     left: 10px;
     top: 10px;
     color: white;
     font-size: 25px;
-
 }
 
-.textotesourodireto{
+.textoacoes, .textorendafixa, .textotesourodireto{
     position: absolute;
     left: 10px;
     top: 70px;
     color: #bbbbbb;
     font-size: 15px;
 }
+
 .Pros{
     position: relative;
     height: 700px;
     width: 100%;
     background-color: white;
 }
+
 .Pros h1{
     position: absolute;
     left: 50px;
     top: 20px;
-
 }
+
 .Pros h3{
     position: absolute;
     left: 50px;
     top: 80px;
-    font-weight: medium;
+    font-weight: normal;
 }
+
 .Segurança{
     position: absolute;
     left: 50px;
     top: 180px;
 }
+
 .Investimento{
     position: absolute;
     left: 700px;
     top: 180px;
 }
+
 .Calculo{
     position: absolute;
     left: 50px;
     top: 400px;
 }
+
 .Compatibilidade{
     position: absolute;
     left: 700px;
     top: 400px;
 }
+
 .Freedom{
     position: relative;
     height: 500px;
     width: 100%;
     background-color: #f8f4f4;
 }
+
 .Freedom a{
     position: absolute;
     text-decoration: none;
@@ -311,17 +288,19 @@ nav{
     left: 40px;
     font-size: 20px;
 }
+
 .Freedom h1{
     position: absolute;
     top: 80px;
     left: 40px;
     color: #FFC700;
 }
+
 .Freedom h3{
-  position: absolute;
-  top: 200px;
-  left: 40px;
-  font-size: 20px;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    font-size: 20px;
 }
 
 .owner{
@@ -337,6 +316,7 @@ footer{
     width: 100%;
     background-color: black;
 }
+
 .Freedom img{
     position: absolute;
     left: 700px;
@@ -344,13 +324,16 @@ footer{
     height: 400px;
     width: 600px;
 }
+
 footer{
     background-color: #101010;
     padding: 70px 0;
 }
+
 ul{
     list-style: none;
 }
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -359,13 +342,14 @@ ul{
 .containerfooter{
     max-width: 1170px;
     background-color: #101010;
-    margin:auto;
+    margin: auto;
 }
+
 .footer-col{
     width: 25%;
     padding: 0 15px;
-
 }
+
 .footer-col h4{
     font-size: 18px;
     color: #ffffff;
@@ -374,6 +358,7 @@ ul{
     font-weight: 500;
     position: relative;
 }
+
 .footer-col h4::before{
     content: '';
     position: absolute;
@@ -384,7 +369,8 @@ ul{
     box-sizing: border-box;
     width: 50px;
 }
-.footer-col ul li:not(:lat-child){
+
+.footer-col ul li:not(:last-child){
     margin-bottom: 10px;
 }
 
@@ -398,10 +384,12 @@ ul{
     display: block;
     transition: all 0.3s ease;
 }
+
 .footer-col ul li a:hover{
     color: #ffffff;
     padding-left: 10px;
 }
+
 .footer-col .social-links a{
     display: inline-block;
     height: 40px;
@@ -414,7 +402,98 @@ ul{
     color: #ffffff;
     transition: all 0.3s ease;
 }
+
 .footer-col .social-links a:hover{
     color: #24262b;
     background-color: #ffffff;
+}
+
+/* Responsivo */
+@media (max-width: 1200px) {
+    .bloco1 {
+        left: 30px;
+    }
+    .bloco2 {
+        left: 460px;
+    }
+    .bloco3 {
+        left: 890px;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav {
+        flex-direction: column;
+    }
+    .bloco1, .bloco2, .bloco3 {
+        width: 45%;
+        left: 2.5%;
+    }
+    .bloco2 {
+        top: 440px;
+    }
+    .bloco3 {
+        top: 760px;
+    }
+    .Login, .iconsettings {
+        right: 50px;
+    }
+    .nomeUsuario {
+        left: 800px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        left: 50px;
+    }
+    .Login, .iconsettings {
+        right: 20px;
+    }
+    .nomeUsuario {
+        left: 600px;
+    }
+    .Produtos, .Pros, .Freedom, .owner, footer {
+        padding: 0 20px;
+    }
+    .bloco1, .bloco2, .bloco3 {
+        width: 90%;
+        left: 5%;
+    }
+    .bloco2 {
+        top: 460px;
+    }
+    .bloco3 {
+        top: 800px;
+    }
+}
+
+@media (max-width: 576px) {
+    nav {
+        left: 20px;
+        top: 50px;
+    }
+    .Login, .iconsettings {
+        right: 10px;
+    }
+    .nomeUsuario {
+        left: 400px;
+    }
+    .Mensage1 {
+        font-size: 30px;
+    }
+    .Mensage2 {
+        top: 250px;
+    }
+    .bloco1, .bloco2, .bloco3 {
+        width: 100%;
+        left: 0;
+        margin-bottom: 20px;
+    }
+    .bloco2 {
+        top: 360px;
+    }
+    .bloco3 {
+        top: 720px;
+    }
 }

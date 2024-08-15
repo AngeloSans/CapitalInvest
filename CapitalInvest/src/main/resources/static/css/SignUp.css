@@ -3,16 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
+
 body{
     background-color: #FFBF00;
 }
+
 .Barra{
     background-color: white;
     width: 100%;
     height: 50px;
 }
+
 .Rounded{
     position: absolute;
     background-color: white;
@@ -21,8 +23,8 @@ body{
     top: 100px;
     left: 180px;
     border-radius: 20px;
-
 }
+
 form{
     position: absolute;
     background-color: white;
@@ -30,8 +32,8 @@ form{
     width: 280px;
     border-radius: 20px 0 0 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
 }
+
 button{
     position: absolute;
     top: 280px;
@@ -46,10 +48,12 @@ button{
     font-weight: bolder;
     font-size: 15px;
 }
+
 button:hover{
     background-color: #FFD455;
 }
-.Email{
+
+.Email, .Senha, .RepetirSenha{
     position: absolute;
     border: none;
     background-color: #F5F5F5;
@@ -57,30 +61,19 @@ button:hover{
     width: 200px;
     left: 30px;
     border-radius: 5px;
+    font-weight: bolder;
+}
+
+.Email {
     top: 130px;
-    font-weight: bolder;
 }
-.Senha{
-    position: absolute;
-    border: none;
-    background-color: #F5F5F5;
-    height: 30px;
-    width: 200px;
-    left: 30px;
+
+.Senha {
     top: 180px;
-    border-radius: 5px;
-    font-weight: bolder;
 }
-.RepetirSenha{
-    position: absolute;
-    border: none;
-    background-color: #F5F5F5;
-    height: 30px;
-    width: 200px;
-    left: 30px;
+
+.RepetirSenha {
     top: 230px;
-    border-radius: 5px;
-    font-weight: bolder;
 }
 
 h1{
@@ -91,8 +84,8 @@ h1{
     left: 300px;
     font-weight: bolder;
     top: 60px;
-
 }
+
 p{
     position: absolute;
     color: white;
@@ -102,6 +95,7 @@ p{
     top: 100px;
     width: 300px;
 }
+
 .Rounded{
     background: linear-gradient(135deg, rgb(255, 168, 168) 10%, rgb(252, 255, 0) 100%);
 }
@@ -114,6 +108,7 @@ p{
     font-weight: bolder;
     font-size: 20px;
 }
+
 .SocialMedias{
     position: absolute;
     left: 700px;
@@ -124,18 +119,64 @@ p{
     border-radius: 0 5px 30px 0;
 }
 
-.iconegoogle{
+.iconegoogle, .iconex, .iconeface{
     position: absolute;
     left: 10px;
+}
+
+.iconegoogle {
     top: 10px;
 }
-.iconex{
-    position: absolute;
-    left: 10px;
+
+.iconex {
     top: 50px;
 }
-.iconeface{
-    position: absolute;
-    left: 10px;
+
+.iconeface {
     top: 90px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .Rounded {
+        width: 90%;
+        height: auto;
+        top: 50px;
+        left: 5%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    form {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+
+    .Email, .Senha, .RepetirSenha, button {
+        position: static;
+        margin: 10px auto;
+        width: calc(100% - 40px);
+    }
+
+    .Signup, .SocialMedias, h1, p {
+        position: static;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .SocialMedias {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .iconegoogle, .iconex, .iconeface {
+        position: static;
+        margin: 10px;
+    }
 }
